@@ -1,0 +1,9 @@
+Required packages (run pip install XXX):
+matplotlib
+tensorflow
+keras
+flask
+APScheduler
+influxdb
+statistics
+numpy

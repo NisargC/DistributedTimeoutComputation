@@ -1,0 +1,12 @@
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=185 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=242 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=254 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=141 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=498 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=264 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=365 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=414 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=37 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=249 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=372 -JUSER=999 -JDURATION=600 -JRAMP=0
+jmeter -n -t ../../jmeter/2_AcmeAir-microservices-mpJwt.jmx -JCookieManager.save.cookies=true -DusePureIds=true -JHOST=34.74.109.243 -JPORT=80 -j jMeter-logName -JTHREAD=277 -JUSER=999 -JDURATION=600 -JRAMP=0

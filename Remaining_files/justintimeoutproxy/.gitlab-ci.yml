@@ -1,0 +1,45 @@
+# Official docker image.
+
+
+services:
+  - docker:dind
+
+stages:
+  - build
+  - deploy
+
+docker:
+  image: docker:latest
+  stage: deploy
+  script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+    - docker build --pull -t "$CI_REGISTRY/justintimeout/justintimeoutproxy/acme-main" ./acmeair-mainservice-java
+    - docker push "$CI_REGISTRY/justintimeout/justintimeoutproxy/acme-main"
+    - docker build --pull -t "$CI_REGISTRY/justintimeout/justintimeoutproxy/acme-auth" ./acmeair-authservice-java
+    - docker push "$CI_REGISTRY/justintimeout/justintimeoutproxy/acme-auth"
+    - docker build --pull -t "$CI_REGISTRY/justintimeout/justintimeoutproxy/acme-flight" ./acmeair-flightservice-java
+    - docker push "$CI_REGISTRY/justintimeout/justintimeoutproxy/acme-flight"
+    - docker build --pull -t "$CI_REGISTRY/justintimeout/justintimeoutproxy/acme-customerservice" ./acmeair-customerservice-java
+    - docker push "$CI_REGISTRY/justintimeout/justintimeoutproxy/acme-customerservice"
+    - docker build --pull -t "$CI_REGISTRY/justintimeout/justintimeoutproxy/acme-bookingservice" ./acmeair-bookingservice-java
+    - docker push "$CI_REGISTRY/justintimeout/justintimeoutproxy/acme-bookingservice"
+  dependencies: 
+    - maven
+
+maven:
+  image: maven:latest
+  stage: build
+  script:
+    - mvn -f ./acmeair-mainservice-java/pom.xml clean package
+    - mvn -f ./acmeair-authservice-java/pom.xml clean package
+    - mvn -f ./acmeair-flightservice-java/pom.xml clean package
+    - mvn -f ./acmeair-customerservice-java/pom.xml clean package
+    - mvn -f ./acmeair-bookingservice-java/pom.xml clean package
+  artifacts:
+    paths:
+    - ./acmeair-mainservice-java/target/acmeair-mainservice-java-3.0.war
+    - ./acmeair-authservice-java/target/acmeair-authservice-java-3.0.war
+    - ./acmeair-authservice-java/target/weavedjre.jar
+    - ./acmeair-flightservice-java/target/acmeair-flightservice-java-3.0.war
+    - ./acmeair-customerservice-java/target/acmeair-customerservice-java-3.0.war
+    - ./acmeair-bookingservice-java/target/acmeair-bookingservice-java-3.0.war

@@ -1,0 +1,13 @@
+services:
+  - docker:dind
+
+stages:
+  - deploy
+
+docker:
+  image: docker:latest
+  stage: deploy
+  script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+    - docker build --pull -t "$CI_REGISTRY/justintimeout/probbroker/probbroker" .
+    - docker push "$CI_REGISTRY/justintimeout/probbroker/probbroker"

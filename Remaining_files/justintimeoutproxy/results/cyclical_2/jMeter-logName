@@ -1,0 +1,206 @@
+2020-05-03 10:43:37,700 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-05-03 10:43:37,731 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.2.1/libexec/bin/user.properties
+2020-05-03 10:43:37,732 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.2.1/libexec/bin/system.properties
+2020-05-03 10:43:37,732 INFO o.a.j.JMeter: Setting JMeter property: CookieManager.save.cookies=true
+2020-05-03 10:43:37,732 INFO o.a.j.JMeter: Setting System property: usePureIds=true
+2020-05-03 10:43:37,732 INFO o.a.j.JMeter: Setting JMeter property: HOST=34.74.109.243
+2020-05-03 10:43:37,732 INFO o.a.j.JMeter: Setting JMeter property: PORT=80
+2020-05-03 10:43:37,732 INFO o.a.j.JMeter: Setting JMeter property: THREAD=20
+2020-05-03 10:43:37,732 INFO o.a.j.JMeter: Setting JMeter property: USER=999
+2020-05-03 10:43:37,733 INFO o.a.j.JMeter: Setting JMeter property: DURATION=600
+2020-05-03 10:43:37,733 INFO o.a.j.JMeter: Setting JMeter property: RAMP=0
+2020-05-03 10:43:37,734 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-05-03 10:43:37,734 INFO o.a.j.JMeter: Version 5.2.1
+2020-05-03 10:43:37,734 INFO o.a.j.JMeter: java.version=14.0.1
+2020-05-03 10:43:37,734 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-05-03 10:43:37,734 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-05-03 10:43:37,734 INFO o.a.j.JMeter: os.arch=x86_64
+2020-05-03 10:43:37,735 INFO o.a.j.JMeter: os.version=10.15.4
+2020-05-03 10:43:37,735 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-05-03 10:43:37,735 INFO o.a.j.JMeter: java.awt.headless=true
+2020-05-03 10:43:37,735 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-05-03 10:43:37,735 INFO o.a.j.JMeter: Available Processors =24
+2020-05-03 10:43:37,745 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-05-03 10:43:37,746 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-05-03 10:43:37,746 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.2.1/libexec
+2020-05-03 10:43:37,746 INFO o.a.j.JMeter: user.dir  =/Users/wilsondy/git/justintimeoutproxy/results/cyclical_2
+2020-05-03 10:43:37,746 INFO o.a.j.JMeter: PWD       =/Users/wilsondy/git/justintimeoutproxy/results/cyclical_2
+2020-05-03 10:43:37,786 INFO o.a.j.JMeter: IP: 192.168.1.137 Name: macpro.local FullName: macpro.localdomain
+2020-05-03 10:43:37,792 INFO o.a.j.s.FileServer: Default base='/Users/wilsondy/git/justintimeoutproxy/results/cyclical_2'
+2020-05-03 10:43:37,794 INFO o.a.j.s.FileServer: Set new base='/Users/wilsondy/git/justintimeoutproxy/results/cyclical_2/../jmeter'
+2020-05-03 10:43:37,946 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-05-03 10:43:37,967 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-05-03 10:43:37,970 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-05-03 10:43:37,975 INFO o.a.j.s.SaveService: Loading file: ../jmeter/2_AcmeAir-microservices-mpJwt.jmx
+2020-05-03 10:43:38,021 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: true Prefix: COOKIE_
+2020-05-03 10:43:38,030 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-03 10:43:38,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-03 10:43:38,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-03 10:43:38,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-03 10:43:38,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-05-03 10:43:38,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-05-03 10:43:38,336 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-05-03 10:43:38,341 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-05-03 10:43:38,344 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-03 10:43:38,344 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-03 10:43:38,352 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-05-03 10:43:38,352 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-05-03 10:43:38,473 INFO o.a.j.JMeter: Running test (1588517018473)
+2020-05-03 10:43:38,495 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-05-03 10:43:38,495 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
+2020-05-03 10:43:38,496 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-03 10:43:38,496 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=0 delayedStart=false
+2020-05-03 10:43:38,533 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-05-03 10:43:38,533 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-05-03 10:43:39,501 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-05-03 10:43:39,504 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1973173622
+2020-05-03 10:43:39,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-05-03 10:43:39,506 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1379198952
+2020-05-03 10:43:39,511 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-05-03 10:43:39,511 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-05-03 10:43:39,511 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1333426029
+2020-05-03 10:43:39,512 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@551866235
+2020-05-03 10:43:39,513 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-05-03 10:43:39,514 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1274748783
+2020-05-03 10:43:39,516 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-05-03 10:43:39,516 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-05-03 10:43:39,517 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@269615217
+2020-05-03 10:43:39,517 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@715787375
+2020-05-03 10:43:39,518 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-05-03 10:43:39,518 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-05-03 10:43:39,519 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1200794622
+2020-05-03 10:43:39,519 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@358792132
+2020-05-03 10:43:39,522 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-05-03 10:43:39,522 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-05-03 10:43:39,522 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1908649971
+2020-05-03 10:43:39,523 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@158088942
+2020-05-03 10:43:39,523 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-05-03 10:43:39,523 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-05-03 10:43:39,524 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@855246685
+2020-05-03 10:43:39,524 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1518453535
+2020-05-03 10:43:39,525 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = macpro.local
+2020-05-03 10:43:39,527 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-05-03 10:43:39,527 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-05-03 10:43:39,528 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@775212752
+2020-05-03 10:43:39,528 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1506651224
+2020-05-03 10:43:39,528 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-05-03 10:43:39,528 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1973863643
+2020-05-03 10:43:39,531 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-05-03 10:43:39,533 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-05-03 10:43:39,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-05-03 10:43:39,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-05-03 10:43:39,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-05-03 10:43:39,533 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-05-03 10:43:39,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-05-03 10:43:39,533 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@392937009
+2020-05-03 10:43:39,533 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-05-03 10:43:39,534 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1027612080
+2020-05-03 10:43:39,534 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-05-03 10:43:39,534 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1883804474
+2020-05-03 10:43:39,534 INFO o.a.j.s.FileServer: Stored: hosts.csv Alias: hosts.csv@1022721676
+2020-05-03 10:43:39,884 INFO o.a.j.s.FileServer: Stored: Airports2.csv
+2020-05-03 10:43:39,885 INFO o.a.j.s.FileServer: Stored: Airports.csv
+2020-05-03 10:44:00,004 INFO o.a.j.r.Summariser: summary +   8140 in 00:00:22 =  378.1/s Avg:    49 Min:     0 Max:  1961 Err:  2834 (34.82%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:44:30,429 INFO o.a.j.r.Summariser: summary +  10892 in 00:00:30 =  358.0/s Avg:    49 Min:     0 Max:  4599 Err:  3967 (36.42%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:44:30,430 INFO o.a.j.r.Summariser: summary =  19032 in 00:00:52 =  366.3/s Avg:    49 Min:     0 Max:  4599 Err:  6801 (35.73%)
+2020-05-03 10:45:00,001 INFO o.a.j.r.Summariser: summary +  13534 in 00:00:30 =  457.7/s Avg:    47 Min:     0 Max:  4527 Err:  4895 (36.17%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:45:00,001 INFO o.a.j.r.Summariser: summary =  32566 in 00:01:22 =  399.5/s Avg:    48 Min:     0 Max:  4599 Err: 11696 (35.91%)
+2020-05-03 10:45:30,005 INFO o.a.j.r.Summariser: summary +  10766 in 00:00:30 =  358.8/s Avg:    56 Min:     0 Max:  3512 Err:  3910 (36.32%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:45:30,006 INFO o.a.j.r.Summariser: summary =  43332 in 00:01:52 =  388.5/s Avg:    50 Min:     0 Max:  4599 Err: 15606 (36.01%)
+2020-05-03 10:46:00,004 INFO o.a.j.r.Summariser: summary +  12875 in 00:00:30 =  429.2/s Avg:    46 Min:     0 Max:  2112 Err:  4617 (35.86%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:46:00,005 INFO o.a.j.r.Summariser: summary =  56207 in 00:02:22 =  397.1/s Avg:    49 Min:     0 Max:  4599 Err: 20223 (35.98%)
+2020-05-03 10:46:30,000 INFO o.a.j.r.Summariser: summary +  10849 in 00:00:30 =  361.7/s Avg:    55 Min:     0 Max:  2772 Err:  3874 (35.71%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:46:30,001 INFO o.a.j.r.Summariser: summary =  67056 in 00:02:52 =  390.9/s Avg:    50 Min:     0 Max:  4599 Err: 24097 (35.94%)
+2020-05-03 10:47:00,000 INFO o.a.j.r.Summariser: summary +   9711 in 00:00:30 =  323.7/s Avg:    60 Min:     0 Max:  2335 Err:  3555 (36.61%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:47:00,000 INFO o.a.j.r.Summariser: summary =  76767 in 00:03:22 =  380.9/s Avg:    51 Min:     0 Max:  4599 Err: 27652 (36.02%)
+2020-05-03 10:47:30,002 INFO o.a.j.r.Summariser: summary +  12648 in 00:00:30 =  421.6/s Avg:    48 Min:     0 Max: 21526 Err:  4594 (36.32%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:47:30,003 INFO o.a.j.r.Summariser: summary =  89415 in 00:03:52 =  386.2/s Avg:    51 Min:     0 Max: 21526 Err: 32246 (36.06%)
+2020-05-03 10:48:00,000 INFO o.a.j.r.Summariser: summary +  11910 in 00:00:30 =  397.0/s Avg:    50 Min:     0 Max:  1313 Err:  4431 (37.20%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:48:00,001 INFO o.a.j.r.Summariser: summary = 101325 in 00:04:22 =  387.4/s Avg:    51 Min:     0 Max: 21526 Err: 36677 (36.20%)
+2020-05-03 10:48:30,014 INFO o.a.j.r.Summariser: summary +  10415 in 00:00:30 =  347.0/s Avg:    57 Min:     0 Max:  1992 Err:  3785 (36.34%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:48:30,014 INFO o.a.j.r.Summariser: summary = 111740 in 00:04:52 =  383.3/s Avg:    51 Min:     0 Max: 21526 Err: 40462 (36.21%)
+2020-05-03 10:49:00,000 INFO o.a.j.r.Summariser: summary +  10214 in 00:00:30 =  340.6/s Avg:    58 Min:     0 Max:  3104 Err:  3703 (36.25%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:49:00,001 INFO o.a.j.r.Summariser: summary = 121954 in 00:05:22 =  379.3/s Avg:    52 Min:     0 Max: 21526 Err: 44165 (36.21%)
+2020-05-03 10:49:30,003 INFO o.a.j.r.Summariser: summary +  11748 in 00:00:30 =  391.6/s Avg:    50 Min:     0 Max:  1584 Err:  4357 (37.09%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:49:30,003 INFO o.a.j.r.Summariser: summary = 133702 in 00:05:52 =  380.3/s Avg:    52 Min:     0 Max: 21526 Err: 48522 (36.29%)
+2020-05-03 10:50:00,001 INFO o.a.j.r.Summariser: summary +  12515 in 00:00:30 =  417.2/s Avg:    47 Min:     0 Max:  1670 Err:  4634 (37.03%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:50:00,001 INFO o.a.j.r.Summariser: summary = 146217 in 00:06:22 =  383.2/s Avg:    51 Min:     0 Max: 21526 Err: 53156 (36.35%)
+2020-05-03 10:50:30,001 INFO o.a.j.r.Summariser: summary +  12536 in 00:00:30 =  417.9/s Avg:    47 Min:     0 Max:  1804 Err:  4617 (36.83%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:50:30,002 INFO o.a.j.r.Summariser: summary = 158753 in 00:06:52 =  385.8/s Avg:    51 Min:     0 Max: 21526 Err: 57773 (36.39%)
+2020-05-03 10:51:00,298 INFO o.a.j.r.Summariser: summary +  12330 in 00:00:30 =  407.0/s Avg:    47 Min:     0 Max:  3212 Err:  4588 (37.21%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:51:00,298 INFO o.a.j.r.Summariser: summary = 171083 in 00:07:22 =  387.2/s Avg:    51 Min:     0 Max: 21526 Err: 62361 (36.45%)
+2020-05-03 10:51:30,011 INFO o.a.j.r.Summariser: summary +  12468 in 00:00:30 =  419.6/s Avg:    48 Min:     0 Max:  2874 Err:  4591 (36.82%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:51:30,011 INFO o.a.j.r.Summariser: summary = 183551 in 00:07:52 =  389.3/s Avg:    51 Min:     0 Max: 21526 Err: 66952 (36.48%)
+2020-05-03 10:52:00,001 INFO o.a.j.r.Summariser: summary +  12923 in 00:00:30 =  430.9/s Avg:    46 Min:     0 Max:  1830 Err:  4799 (37.14%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:52:00,001 INFO o.a.j.r.Summariser: summary = 196474 in 00:08:22 =  391.8/s Avg:    50 Min:     0 Max: 21526 Err: 71751 (36.52%)
+2020-05-03 10:52:30,388 INFO o.a.j.r.Summariser: summary +  12672 in 00:00:30 =  417.0/s Avg:    46 Min:     0 Max:  2142 Err:  4681 (36.94%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:52:30,388 INFO o.a.j.r.Summariser: summary = 209146 in 00:08:52 =  393.2/s Avg:    50 Min:     0 Max: 21526 Err: 76432 (36.54%)
+2020-05-03 10:53:00,001 INFO o.a.j.r.Summariser: summary +  12631 in 00:00:30 =  426.5/s Avg:    46 Min:     0 Max:  2635 Err:  4720 (37.37%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:53:00,001 INFO o.a.j.r.Summariser: summary = 221777 in 00:09:22 =  395.0/s Avg:    50 Min:     0 Max: 21526 Err: 81152 (36.59%)
+2020-05-03 10:53:30,002 INFO o.a.j.r.Summariser: summary +  12386 in 00:00:30 =  412.9/s Avg:    44 Min:     0 Max:  1879 Err:  4663 (37.65%) Active: 20 Started: 20 Finished: 0
+2020-05-03 10:53:30,002 INFO o.a.j.r.Summariser: summary = 234163 in 00:09:52 =  395.9/s Avg:    50 Min:     0 Max: 21526 Err: 85815 (36.65%)
+2020-05-03 10:53:39,526 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-14
+2020-05-03 10:53:39,526 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-05-03 10:53:39,529 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-5
+2020-05-03 10:53:39,530 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-05-03 10:53:39,532 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-3
+2020-05-03 10:53:39,532 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-05-03 10:53:39,540 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-13
+2020-05-03 10:53:39,541 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-05-03 10:53:39,542 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-11
+2020-05-03 10:53:39,542 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-05-03 10:53:39,544 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-7
+2020-05-03 10:53:39,544 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-10
+2020-05-03 10:53:39,544 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-05-03 10:53:39,544 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-05-03 10:53:39,546 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-19
+2020-05-03 10:53:39,546 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-05-03 10:53:39,649 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-1
+2020-05-03 10:53:39,650 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-05-03 10:53:39,682 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-17
+2020-05-03 10:53:39,682 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-05-03 10:53:39,683 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-9
+2020-05-03 10:53:39,684 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-05-03 10:53:39,768 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-2
+2020-05-03 10:53:39,768 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-05-03 10:53:39,814 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-20
+2020-05-03 10:53:39,815 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-05-03 10:53:39,826 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-18
+2020-05-03 10:53:39,827 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-05-03 10:53:39,832 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-12
+2020-05-03 10:53:39,833 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-05-03 10:53:39,838 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-4
+2020-05-03 10:53:39,839 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-05-03 10:53:39,851 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-16
+2020-05-03 10:53:39,851 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-05-03 10:53:39,855 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-15
+2020-05-03 10:53:39,856 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-05-03 10:53:39,865 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-6
+2020-05-03 10:53:39,865 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-05-03 10:54:06,437 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-8
+2020-05-03 10:54:06,437 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-05-03 10:54:06,438 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-05-03 10:54:06,438 INFO o.a.j.s.FileServer: Close: hosts.csv@1973173622
+2020-05-03 10:54:06,438 INFO o.a.j.s.FileServer: Close: hosts.csv@1883804474
+2020-05-03 10:54:06,438 INFO o.a.j.s.FileServer: Close: hosts.csv@358792132
+2020-05-03 10:54:06,438 INFO o.a.j.s.FileServer: Close: hosts.csv@1908649971
+2020-05-03 10:54:06,438 INFO o.a.j.s.FileServer: Close: hosts.csv@1506651224
+2020-05-03 10:54:06,438 INFO o.a.j.s.FileServer: Close: hosts.csv@1200794622
+2020-05-03 10:54:06,438 INFO o.a.j.s.FileServer: Close: hosts.csv@158088942
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: hosts.csv@855246685
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: hosts.csv@269615217
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: hosts.csv@1973863643
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: Airports2.csv
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: hosts.csv@715787375
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: Airports.csv
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: hosts.csv@1379198952
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: hosts.csv@1274748783
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: hosts.csv@551866235
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: hosts.csv@1022721676
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: hosts.csv@392937009
+2020-05-03 10:54:06,439 INFO o.a.j.s.FileServer: Close: hosts.csv@1333426029
+2020-05-03 10:54:06,440 INFO o.a.j.s.FileServer: Close: hosts.csv@1027612080
+2020-05-03 10:54:06,440 INFO o.a.j.s.FileServer: Close: hosts.csv@775212752
+2020-05-03 10:54:06,440 INFO o.a.j.s.FileServer: Close: hosts.csv@1518453535
+2020-05-03 10:54:06,440 INFO o.a.j.r.Summariser: summary +   2688 in 00:00:36 =   73.8/s Avg:   104 Min:     0 Max: 82141 Err:   969 (36.05%) Active: 0 Started: 20 Finished: 20
+2020-05-03 10:54:06,441 INFO o.a.j.r.Summariser: summary = 236851 in 00:10:28 =  377.2/s Avg:    50 Min:     0 Max: 82141 Err: 86784 (36.64%)

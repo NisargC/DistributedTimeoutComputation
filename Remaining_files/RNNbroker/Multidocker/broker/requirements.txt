@@ -1,0 +1,5 @@
+Required packages (run pip install XXX):
+flask
+APScheduler
+multiprocess
+requests
